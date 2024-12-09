@@ -154,7 +154,7 @@ In this case, the CSSNumericValue platform objects would come with operator over
 ```js
 with operators from CSSNumericValue;
 
-document.querySelector("#element").style.paddingLeft = Css.em(3) + CSS.px(2);
+document.querySelector("#element").style.paddingLeft = CSS.em(3) + CSS.px(2);
 ```
 
 ## Design goals
